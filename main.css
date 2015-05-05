@@ -27,13 +27,18 @@ ul {
 
 .image-caption{
     color: #777;
+    display: inline;
     float: right;
+    position: relative;
     font-weight: 700;
 }
 
 
 .authors {
+    display: inline;
     float: right;
+    position: relative;
+    top: -8px;
 }
 
 li img {
@@ -61,7 +66,6 @@ a {
     border-bottom: 1px solid #D3D3D3;
     padding: 15px 0;
     position: relative;
-    overflow: hidden;
 }
 
 .image-footer::before {
