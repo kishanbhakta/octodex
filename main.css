@@ -1,21 +1,54 @@
 .octocat img {
     width: 445px;
+    margin-right: 12px;
     border: 1px solid #CFCFCF;
 }
 
 
 .authors img {
     width: 25px;
+    float: right;
 }
 
 
 .octocat {
     float: left;
     height: 445px;
-
-
 }
 
 ul {
     list-style: none;
+    padding-left: 12px;
+
+}
+
+
+
+.image-caption{
+    color: inherit;
+    display: inline;
+    float: right;
+    position: relative;
+    font-weight: 700;
+}
+
+
+.authors {
+    display: inline;
+    float: right;
+    position: relative;
+}
+
+ .image-number {
+    color: #D3D3D3;
+    font-style: bold;
+}
+
+.image-number::before {
+    content: "#";
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
 }
