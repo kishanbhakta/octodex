@@ -1,2 +1,19 @@
+.octocat img {
+    width: 445px;
+}
 
 
+.authors img {
+    width: 25px;
+}
+
+
+.octocat {
+    float: left;
+    height: 445px;
+
+}
+
+ul {
+    list-style: none;
+}
