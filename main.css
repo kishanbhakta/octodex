@@ -1,5 +1,6 @@
 .octocat img {
     width: 445px;
+    border: 1px solid #CFCFCF;
 }
 
 
@@ -11,6 +12,7 @@
 .octocat {
     float: left;
     height: 445px;
+
 
 }
 
