@@ -25,7 +25,7 @@ ul {
 
 
 .image-caption{
-    color: inherit;
+    color: #777;
     display: inline;
     float: right;
     position: relative;
@@ -37,7 +37,15 @@ ul {
     display: inline;
     float: right;
     position: relative;
+
 }
+
+li img {
+    border-radius: 5px;
+}
+
+
+
 
  .image-number {
     color: #D3D3D3;
@@ -49,6 +57,6 @@ ul {
 }
 
 a {
-    color: inherit;
+    color: black;
     text-decoration: none;
 }
