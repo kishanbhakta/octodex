@@ -37,7 +37,7 @@ ul {
     display: inline;
     float: right;
     position: relative;
-
+    top: -8px;
 }
 
 li img {
@@ -59,4 +59,9 @@ li img {
 a {
     color: black;
     text-decoration: none;
+}
+
+.image-footer {
+    border-bottom: 1px solid #D3D3D3;
+    padding: 10px 0;
 }
