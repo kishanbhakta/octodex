@@ -1,7 +1,7 @@
 .octocat img {
     width: 445px;
-    margin-right: 12px;
-    border: 1px solid #CFCFCF;
+
+    border: 1.5px solid #CFCFCF;
 }
 
 
@@ -14,6 +14,7 @@
 .octocat {
     float: left;
     height: 445px;
+    margin-right: 12px;
 }
 
 ul {
@@ -72,9 +73,9 @@ a {
   display: block;
   height: 0;
   width: 0;
-  border: 8px solid transparent;
+  border: 9px solid transparent;
   border-top-color: #cacaca;
   position: absolute;
-  right: 16px;
+  right: 6.5px;
   top: -4px;
 }
