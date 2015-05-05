@@ -63,5 +63,18 @@ a {
 
 .image-footer {
     border-bottom: 1px solid #D3D3D3;
-    padding: 10px 0;
+    padding: 15px 0;
+    position: relative;
+}
+
+.image-footer::before {
+  content: "";
+  display: block;
+  height: 0;
+  width: 0;
+  border: 8px solid transparent;
+  border-top-color: #cacaca;
+  position: absolute;
+  right: 16px;
+  top: -4px;
 }
