@@ -1,15 +1,14 @@
+/* Octodex */
+.octodex {
+  font-family: "helvetica" san-serif;
+}
+
+
+/* Octocat */
 .octocat img {
     width: 445px;
-
     border: 1.5px solid #CFCFCF;
 }
-
-
-.authors img {
-    width: 25px;
-    float: right;
-}
-
 
 .octocat {
     float: left;
@@ -17,14 +16,21 @@
     margin-right: 12px;
 }
 
-ul {
-    list-style: none;
-    padding-left: 12px;
+/* authors */
+.authors img {
+    width: 25px;
+    float: right;
+}
 
+.authors {
+    display: inline-block;
+    float: right;
+    position: relative;
+    top: -8px;
 }
 
 
-
+/* Image-Caption */
 .image-caption{
     color: #777;
     display: inline;
@@ -33,21 +39,7 @@ ul {
     font-weight: 700;
 }
 
-
-.authors {
-    display: inline;
-    float: right;
-    position: relative;
-    top: -8px;
-}
-
-li img {
-    border-radius: 5px;
-}
-
-
-
-
+/* Image-Number */
  .image-number {
     color: #D3D3D3;
     font-style: bold;
@@ -57,11 +49,7 @@ li img {
     content: "#";
 }
 
-a {
-    color: black;
-    text-decoration: none;
-}
-
+/* Image-Footer */
 .image-footer {
     border-bottom: 1px solid #D3D3D3;
     padding: 15px 0;
@@ -79,3 +67,22 @@ a {
   right: 6.5px;
   top: -4px;
 }
+
+
+ul {
+    list-style: none;
+    padding-left: 12px;
+}
+
+
+li img {
+    border-radius: 5px;
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
