@@ -50,11 +50,11 @@
 }
 
 /* Image-Footer */
-.image-footer
+.image-footer {
     border-bottom: 1px solid #D3D3D3;
     padding: 15px 0;
     position: relative;
-git }
+  }
 
 .image-footer::before {
   content: "";
